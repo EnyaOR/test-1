@@ -4,7 +4,8 @@ function [Curl] = abscurl(y, alpha, beta)
 
 % Parameter Values
 rhoa = (10^9)*1.225; % kg/km^3
-Cd = 1.5e-3; % Kara 2007
+%Cd = 1.5e-3; % Kara 2007
+Cd = 1.1e-3;
 
 for i = 1:length(y)
     for j = 1:length(y)      
