@@ -4,7 +4,7 @@ ieee='b';
 accuracy='real*8';
 
 % Some Parameters
-Ho=4000;
+Ho=2000;
 nx=640; hx=2.5; dx=5e3;
 ny=640; hy=2.5; dy=5e3;
 nt = 1;
