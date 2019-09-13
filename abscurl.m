@@ -1,6 +1,6 @@
 function [Curl] = abscurl(y, alpha, beta)
 
-% Curl of wind stress using resting ocean approximation
+% Fuction to find the curl of wind stress using resting ocean approximation
 
 % Parameter Values
 rhoa = (10^9)*1.225; % kg/km^3
